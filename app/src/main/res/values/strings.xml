@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GunungMerbabu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Tentang Jalur</string>
+    <string name="title_notifications">Profile</string>
+    <string name="title_maps">Location Based</string>
+    <string name="map_key" translatable="false">AIzaSyBObAovkNSmisR9fh-q4hBhsS3lT2b-znU</string>
+</resources>

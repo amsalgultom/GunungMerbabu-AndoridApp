@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pnj.uas.bangkitamsal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:12:5-80
+18-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:13:5-65
+19-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:13:22-62
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:14:5-81
+20-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:14:22-78
+21
+22    <uses-feature
+22-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:17:5-19:36
+23        android:name="android.hardware.camera2"
+23-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:18:9-48
+24        android:required="false" />
+24-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:19:9-33
+25
+26    <!-- Include required permissions for Google Maps API to run. -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+32
+33    <application
+33-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:21:5-70:19
+34        android:allowBackup="true"
+34-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:22:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.3.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\b4b501b9ffccbf729a739e59de5fa42b\core-1.3.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:23:9-43
+38        android:label="@string/app_name"
+38-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:24:9-41
+39        android:networkSecurityConfig="@xml/network_config"
+39-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:25:9-60
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:26:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:27:9-35
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme" >
+43-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:28:9-40
+44        <activity android:name="pnj.uas.bangkitamsal.LocationActivity" />
+44-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:29:9-63
+44-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:29:19-51
+45        <!--
+46             The API key for Google Maps-based APIs is defined as a string resource.
+47             (See the file "res/values/google_maps_api.xml").
+48             Note that the API key is linked to the encryption key used to sign the APK.
+49             You need a different API key for each encryption key, including the release key that is used to
+50             sign the APK for publishing.
+51             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+52        -->
+53        <meta-data
+53-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:38:9-40:47
+54            android:name="com.google.android.geo.API_KEY"
+54-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:39:13-58
+55            android:value="@string/map_key" />
+55-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:40:13-44
+56
+57        <activity android:name="pnj.uas.bangkitamsal.ListDataPendaki" />
+57-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:42:9-53
+57-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:42:19-50
+58        <activity android:name="pnj.uas.bangkitamsal.TambahDataPendaki" />
+58-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:43:9-55
+58-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:43:19-52
+59        <activity android:name="pnj.uas.bangkitamsal.DataJalurActivity" />
+59-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:44:9-55
+59-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:44:19-52
+60        <activity android:name="pnj.uas.bangkitamsal.DetailBeritaActivity" />
+60-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:45:9-58
+60-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:45:19-55
+61        <activity android:name="pnj.uas.bangkitamsal.TambahDataActivity" />
+61-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:46:9-56
+61-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:46:19-53
+62        <activity android:name="pnj.uas.bangkitamsal.DetailActivity" />
+62-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:47:9-52
+62-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:47:19-49
+63        <activity android:name="pnj.uas.bangkitamsal.HapusDataActivity" />
+63-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:48:9-55
+63-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:48:19-52
+64        <activity android:name="pnj.uas.bangkitamsal.LoginActivity" />
+64-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:49:9-51
+64-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:49:19-48
+65        <activity android:name="pnj.uas.bangkitamsal.MainActivity" />
+65-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:50:9-50
+65-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:50:19-47
+66        <activity
+66-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:51:9-59:20
+67            android:name="pnj.uas.bangkitamsal.SplashScreen"
+67-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:52:13-41
+68            android:label="@string/app_name" >
+68-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:53:13-45
+69            <intent-filter>
+69-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:54:13-58:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:55:17-69
+70-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:55:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:57:17-77
+72-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:57:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+76-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:61:9-69:20
+77            android:name="androidx.core.content.FileProvider"
+77-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:62:13-62
+78            android:authorities="pnj.uas.bangkitamsal.fileprovider"
+78-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:63:13-68
+79            android:exported="false"
+79-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:64:13-37
+80            android:grantUriPermissions="true" >
+80-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:65:13-47
+81            <meta-data
+81-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:66:13-68:53
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:67:17-67
+83                android:resource="@xml/file_path" />
+83-->C:\Users\Amsal Gultom\AndroidStudioProjects\GunungMerbabu\app\src\main\AndroidManifest.xml:68:17-50
+84        </provider>
+85        <!-- Needs to be explicitly declared on P+ -->
+86        <uses-library
+86-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+87            android:name="org.apache.http.legacy"
+87-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+88            android:required="false" />
+88-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+89
+90        <provider
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\7bdb1e43345b2866266c6194ead49a6e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+91            android:name="com.squareup.picasso.PicassoProvider"
+91-->[com.squareup.picasso:picasso:2.71828] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\7bdb1e43345b2866266c6194ead49a6e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+92            android:authorities="pnj.uas.bangkitamsal.com.squareup.picasso"
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\7bdb1e43345b2866266c6194ead49a6e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+93            android:exported="false" />
+93-->[com.squareup.picasso:picasso:2.71828] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\7bdb1e43345b2866266c6194ead49a6e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+103
+104        <provider
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+105            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+106            android:authorities="pnj.uas.bangkitamsal.lifecycle-process"
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+107            android:exported="false"
+107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+108            android:multiprocess="true" />
+108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Amsal Gultom\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+109    </application>
+110
+111</manifest>
